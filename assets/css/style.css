@@ -187,6 +187,7 @@ footer {
     text-align: center;
     height: 150px;
     color: white;
+    margin: 0 auto;
 }
 
 footer p {
@@ -288,8 +289,21 @@ main a:hover {
 }
 
 
+.progress-container {
+  background-color: #f0ece2; 
+  height: 8px;               
+  border-radius: 4px;
+  width: 100%;               
+  max-width: 250px;         
+  overflow: hidden;
+}
 
 
+.progress-bar {
+  background-color: #f1b400; 
+  height: 100%;
+  border-radius: 4px;
+}
 
 
 .experience {
